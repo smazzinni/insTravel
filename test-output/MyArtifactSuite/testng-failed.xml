@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [MyArtifactSuite]">
+  <test parallel="methods" name="AllSuites(failed)">
+    <classes>
+      <class name="com.travel.frame.tavel.suites.insurance">
+        <methods>
+          <include name="bookInsurance"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.travel.frame.tavel.suites.insurance -->
+    </classes>
+  </test> <!-- AllSuites(failed) -->
+</suite> <!-- Failed suite [MyArtifactSuite] -->
